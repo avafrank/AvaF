@@ -2,9 +2,7 @@
 
 ### A beautiful minimal and accessible portfolio template for Developers ✨.
 
-To View the live site click [here &rarr;](https://portfolio-template.surge.sh)
-
-![Portfolio Gif](/images/portfolio.gif)
+To View the live site click [here &rarr;](https://csclub-portfolio.vercel.app/)
 
 ## Features
 
@@ -30,7 +28,6 @@ Clone this repository
 git clone https://github.com/SotaroKaneda/csclub-portfolio
 ```
 
-If you don't have Git installed or you don't like using the terminal then you can download the [zip](https://github.com/nisarhassan12/portfolio-template/archive/master.zip) and extract that and open the extracted folder in the code editor of your your choice.
 
 ## Editing the Template 🔨
 
@@ -45,10 +42,10 @@ In all of the places where you're supposed to fill your information you'll find 
     <div class="header__text">
         <h1 class="heading-primary">
         <!-- Replace the following name with your name -->
-        <span>Syed Ali Hussnain</span>
+        <span>Bobby Yamada</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
+        <p>A Web Developer based in Nagoya, Japan.</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
     </div>
 </div>
@@ -76,7 +73,7 @@ Each div with class `work__box` represents a project, replace the contents of th
         <a href="#" class="link__text">
         Visit Site <span>&rarr;</span>
         </a> 
-        <a href="https://github.com/nisarhassan12/portfolio" target="_blank">
+        <a href="https://github.com/SotaroKaneda/csclub-portfolio" target="_blank">
         <img src="./images/github.svg" class="work__code" alt="GitHub">
         </a>
     </div>
@@ -164,8 +161,8 @@ For changing the screenshot:
         <h2>Get in Touch</h2>
         <div class="contact__info">
           <p>
-            Are you looking for a fast-performing and user-friendly website to
-            represent your product or business? or looking for any kind of
+            Are you looking for an educational, fun and friendly club to
+            join? or looking for any kind of
             consultation? or want to ask questions? or have some advice for me
             or just want to say "Hi 👋" in any case feel free to Let me know. I
             will do my best to respond back. 😊 The quickest way to reach out to
@@ -189,22 +186,17 @@ For changing the screenshot:
         <!-- Update the links to point to your accounts -->
         <ul class="footer__social-links">
             <li class="footer__social-link-item">
-                <a href="https://twitter.com/nisarhassan12/">
+                <a href="https://twitter.com/sotarokaneda/">
                     <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
                 </a>
             </li>
             <li class="footer__social-link-item">
-                <a href="https://github.com/nisarhassan12/">
+                <a href="https://github.com/sotarokaneda/">
                     <img src="./images/github.svg" class="footer__social-image" alt="Github">
                 </a>
             </li>
             <li class="footer__social-link-item">
-                <a href="https://codepen.io/nisar_hassan">
-                    <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+                <a href=https://www.linkedin.com/in/sotarokaneda/">
                     <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
                 </a>
             </li>
@@ -214,12 +206,6 @@ For changing the screenshot:
         <p>
           &copy; 2020 - Template designed & developed by <a href="https://nisar.dev">Nisar</a>.
         </p>
-        <div class="footer__github-buttons">
-          <iframe
-            src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true" 
-            frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-          </iframe>
-        </div>
     </div>
 </footer>
 ```
